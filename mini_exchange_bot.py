@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 
 # ------------------ تنظیمات ------------------
-TOKEN = "7841165333:AAFI2Jm65AMNnGAVkF28DPXp_i9oB7LxQo8"
+TOKEN = os.getenv("7841165333:AAFI2Jm65AMNnGAVkF28DPXp_i9oB7LxQo8")
 DB_FILE = "exchange.db"
 COINGECKO_URL = (
     "https://api.coingecko.com/api/v3/simple/price"
